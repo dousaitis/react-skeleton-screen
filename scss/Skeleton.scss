@@ -1,0 +1,12 @@
+$skeleton-bg-color: #f9f9f9;
+
+.Skeleton {
+  .Skeleton-body {
+    width: 100%;
+    height: inherit;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: $skeleton-bg-color;
+    border-radius: 3px;
+  }
+}
