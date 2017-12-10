@@ -1,4 +1,7 @@
-# react-skeleton-screen [![npm package][npm-badge]][npm]
+# react-skeleton-screen [![Travis][build-badge]][build] [![npm package][npm-badge]][npm]
+
+[build-badge]: https://img.shields.io/travis/johndous/react-skeleton-screen/master.svg?style=flat-square
+[build]: https://travis-ci.org/johndous/react-skeleton-screen
 
 [npm-badge]: https://img.shields.io/npm/v/react-skeleton-screen.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/react-skeleton-screen
