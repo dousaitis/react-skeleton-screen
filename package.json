@@ -1,6 +1,6 @@
 {
   "name": "react-skeleton-screen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A skeleton screen is essentially a blank version of a page into which information is gradually loaded",
   "main": "build/index.js",
   "style": "build/skeleton.css",
