@@ -19,27 +19,27 @@ Then, use as you would anything else:
 
 ```js
 // using ES6 modules
-import { Skeleton } from "react-skeleton-screen";
+import { Skeleton } from 'react-skeleton-screen'
 
 // using CommonJS modules
-var Skeleton = require("react-broadcast").Skeleton;
+var Skeleton = require('react-skeleton-screen').Skeleton
 ```
 
 
 ## Usage
 
 ```js
-import React from 'react';
-import { Skeleton } from 'react-skeleton-screen';
-import 'react-skeleton-screen/build/skeleton.css';
-//or if you use scss
-//import 'react-skeleton-screen/scss/Skeleton.scss';
+import React from 'react'
+import { Skeleton } from 'react-skeleton-screen'
+import 'react-skeleton-screen/build/skeleton.css'
+// using scss
+//import 'react-skeleton-screen/scss/Skeleton.scss'
 
 const App = ({ isLoading }) => (
   isLoading
     ? <Skeleton width="100%" height="60px" />
     : <div>Your app has been loaded!</div>
-);
+)
 
-export default App;
+export default App
 ```

@@ -15,9 +15,7 @@ export default [
       react: 'React'
     },
     plugins: [
-      resolve({
-        extensions: [ '.js', '.jsx' ],
-      }),
+      resolve(),
       babel({
         exclude: 'node_modules/**',
         babelrc: false,
